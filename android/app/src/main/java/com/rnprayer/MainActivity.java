@@ -1,4 +1,4 @@
-package com.rn_prayer;
+package com.rnprayer;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -12,7 +12,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RN_Prayer";
+    return "RNPrayer";
   }
 
   /**

@@ -6,7 +6,7 @@ install! 'cocoapods', :deterministic_uuids => false
 
 production = ENV["PRODUCTION"] == "1"
 
-target 'RN_Prayer' do
+target 'RNPrayer' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -23,7 +23,7 @@ target 'RN_Prayer' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'RN_PrayerTests' do
+  target 'RNPrayerTests' do
     inherit! :complete
     # Pods for testing
   end

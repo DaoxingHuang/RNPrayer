@@ -1,4 +1,4 @@
-package com.rn_prayer.newarchitecture;
+package com.rnprayer.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.rn_prayer.BuildConfig;
-import com.rn_prayer.newarchitecture.components.MainComponentsRegistry;
-import com.rn_prayer.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.rnprayer.BuildConfig;
+import com.rnprayer.newarchitecture.components.MainComponentsRegistry;
+import com.rnprayer.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
