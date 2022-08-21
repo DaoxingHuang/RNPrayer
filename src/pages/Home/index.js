@@ -6,7 +6,7 @@ const HomePage = ({navigation}) => (
       <Text>Home Screen</Text>
       <Button
         onPress={() => navigation.push('Details')}
-        title="Go to details"
+        title="Details"
         />
     </View>
   );
