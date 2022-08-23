@@ -10,10 +10,11 @@ const DetailsPage = () => {
 
   return <WebView 
   originWhitelist={['*']}
+  allowFileAccess={true} // 允许通过 file://的形式加载资源
   javaScriptEnabled={true}
   setAllowFileAccessFromFileURLs={true}
   setAllowUniversalAccessFromFileURLs={true} 
-  originWhitelist={['*']} source={{uri: source}} />;
+  source={{uri: source}} />;
 };
 
 export default DetailsPage;
